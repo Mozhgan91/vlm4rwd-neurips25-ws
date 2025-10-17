@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Primary Meta Tags -->
+        <title>VLM4RWD Workshop | NeurIPS 2025</title>
+        <meta name="title" content="VLM4RWD Workshop| NeurIPS 2025">
+        <meta name="description"
+            content="Vision Language Models: Challenges of Real-World Deployment. Join us at NeurIPS 2025 in Mexico City, Mexico to explore the potential of VLMs.">
+        <meta name="keywords"
+            content="VLM, VLA, workshop, NeurIPS 2025, robotics, language models, autonomous driving, vision language models, AI research">
+        <meta name="author" content="VLM4RWD Workshop Organizers">
+
+        <!-- Favicon -->
+        <link rel="icon" type="image/png" href="imgs/vlm4rwd_concept.png">
+
+        <!-- Canonical URL -->
+        <!--<link rel="canonical" href=""> -->
+
+        
+
+        <!-- Existing CSS and font links -->
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
+            rel="stylesheet">
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+        <script
+            src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.waves.min.js"></script>
+    </head>
+    <body>
+
+        <header class="fixed-header">
+            <div class="container">
+                <div class="logo">
+                    <div class="logo-container">
+                        <img src="imgs/vlm4rwd_concept.png" alt="vlm4rwd Logo"
+                            class="logo-image">
+                        <div class="logo-text">
+                            <h1>VLM4RWD</h1>
+                            <p>NeurIPS 2025 Workshop</p>
+                        </div>
+                    </div>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="#home" class="active">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#call">Call for Papers</a></li>
+                        <li><a href="#papers">Accepted Papers</a></li>
+                        <li><a href="#schedule">Schedule</a></li>
+                        <li><a href="#speakers">Speakers</a></li>
+                        <li><a href="#organizers">Organizers</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                    <div class="hamburger">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </nav>
+            </div>
+        </header>
+
+        <!-- Home/Hero Section -->
+        <section id="home" class="hero">
+            <div id="hero-background"></div>
+            <div class="container">
+                <div class="hero-logo">
+                    <img src="imgs/vlm4rwd_concept.png" alt="vlm4rwd Logo"
+                        class="hero-logo-image">
+                </div>
+                <h2>Vision Language Models: Challenges of RealWorld Deployment</h2>
+                <p class="centered-subtitle">1st Workshop on VLM4RWD | NeurIPS
+                    2025 | Nov 30th, 2025 | Mexico City, Mexico</p>
+                <div class="cta-buttons">
+                    <a href="#call" class="btn primary">Submit Paper</a>
+                    <a href="#schedule" class="btn secondary">View Schedule</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- About/Overview Section -->
+        <section id="about" class="overview">
+            <div class="container">
+                <h2>Workshop Overview</h2>
+                <div class="overview-content">
+                    <div class="overview-text">
+                        <p style="text-align: justify;">Vision language models (VLMs) have demonstrated remarkable capabilities in integrating visual perception with natural language understanding, powering applications such as multimodal assistants, robotics, autonomous systems, and accessibility tools. However, their real-world deployment faces significant challenges in efficiency, scalability, and reliability. This workshop will bring together researchers and practitioners from academia and industry to highlight cutting-edge research, systems-level optimizations, and evaluation methodologies that are often overlooked yet pivotal for robust real-world integration. Efficiency, robustness, and reliability will be emphasized as core design principles, essential to advancing VLMs from experimental systems to dependable deployed technologies. By convening researchers at the intersection of multimodal learning, efficient inference and training, robustness and uncertainty estimation, and large-scale systems design, the workshop aims to establish concrete pathways toward building VLMs that can operate reliably under practical constraints. We hope this workshop will serve as a venue for exchanging insights on model design, efficiency techniques, and robustness evaluation that bridge the gap between research and real-world systems.</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+                <!-- Call for Papers Section -->
+        <section id="call" class="call-section">
+            <div class="container">
+                <h2>Call for Papers</h2>
+                <div class="paper-info">
+                    <h3>Overview</h3>
+                    <br>
+                    <p style="text-align: justify;"> The <strong>VLM4RWD workshop @ NeurIPS 2025</strong> invite high-quality submissions that identify key challenges, introduce novel methodologies, and push the boundaries of efficient and reliable vision language models toward the next generation of autonomous systems. In addition to research papers, we also welcome demos and poster abstracts aligned with the workshop theme. <br>
+                    Accepted papers will be presented as posters during the poster sessions. Selected works will also be highlighted as contributed talks. Topics of interest include, but are not limited to:</p>
+
+
+                    <h3 style="margin-top: 30px;">Topics</h3>
+                    <br>
+
+                    <ul>
+                        <li>Data pipelines for efficient multimodal learning, from pretraining, to finetuning, and ultimately test-time adaptation</li>
+                        <li>Approaches for accelerating VLMs inference through the design of algorithms and systems</li>
+                        <li>Compression and distillation for VLMs deployment under constrained resources</li>
+                        <li>Sparse, modular, and retrieval-augmented VLM architectures</li>
+                        <li>Effective and efficient training for complex reasoning tasks in visual scenes</li>
+                        <li>Robust training and evaluation of robustness of VLMs</li>
+                        <li>Benchmarks for deployment-oriented evaluation of VLMs</li>
+                        <li>Mitigating hallucination and improving multimodal grounding</li>
+                        <li>Emerging frontiers: agentic VLMs for real-world integration</li>
+                    </ul>
+                
+
+                    <h3>Submission Guidelines</h3> <br>
+                    <ul>
+                         <li> <strong>Formatting Instructions:</strong> Workshop papers should be 4–8 pages in length (excluding refrences and appendix), following the NeurIPS 2025 main conference format. Supplementary materials and appendices are allowed but will be considered optional for reviewers. </li>
+                         <li> <strong>submission link:</strong>Submissions will be managed via OpenReview. The link will be provided soon.</li> 
+                         <li> <strong>Reviews:</strong> The review process will be double-blind. All submissions must be anonymized and the leakage of any identification information is prohibited.</li>
+                         <li> <strong>What can be sumitted:</strong> Consistent with common workshop practices, we welcome submissions of papers previously published papers; however, they will not be eligible for awards and will be limited to poster session. 
+                    </ul>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Important Dates Section -->
+        <section id="dates" class="dates-section">
+            <div class="container">
+                <h2>Important Dates</h2>
+                <div class="dates-container">
+                    <div class="date-item">
+                        <div class="date-icon">
+                            <i class="fas fa-file-alt"></i>
+                        </div>
+                        <div class="date-info">
+                            <h3>Paper Submission</h3>
+                            <p>Oct 30th, 2025</p>
+                        </div>
+                    </div>
+
+                    <div class="date-item">
+                        <div class="date-icon">
+                            <i class="fas fa-envelope-open-text"></i>
+                        </div>
+                        <div class="date-info">
+                            <h3>Notification</h3>
+                            <p>Nov 7th, 2025</p>
+                        </div>
+                    </div>
+
+                    <div class="date-item">
+                        <div class="date-icon">
+                            <i class="fas fa-check-circle"></i>
+                        </div>
+                        <div class="date-info">
+                            <h3>Camera Ready</h3>
+                            <p>Nov 14th, 2025</p>
+                        </div>
+                    </div>
+
+                    <div class="date-item">
+                        <div class="date-icon">
+                            <i class="fas fa-calendar-day"></i>
+                        </div>
+                        <div class="date-info">
+                            <h3>Workshop Date</h3>
+                            <p>Nov 30th, 2025</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <!-- Schedule Section -->
+        <section id="schedule" class="schedule-section">
+            <div class="container">
+                <h2>Schedule</h2>
+                <p>Half-day workshop at NeurIPS 2025,
+                    Mexico City, Mexico</p>
+
+                <div class="schedule-note">
+                    <p><strong>Note:</strong> The schedule is tentative and
+                        subject to change.</p>
+                </div>
+
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="time">8:50 - 9:00</div>
+                        <div class="event">
+                            <h3>Opening Remarks</h3>
+                            <p>Welcome and introduction to the workshop</p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="time">9:00 - 9:25</div>
+                        <div class="event">
+                                <div class="speaker">
+                                    <img src="imgs/speakers/roozbeh-mottaghi.png" 
+                                        alt="Roozbeh Mottaghi" 
+                                        class="speaker-thumbnail">
+                                    <div class="event-details">
+                                        <h3>Keynote: Dr. Roozbeh Mottaghi</h3>
+                                        <p>Meta FAIR/UWashington</p>
+                                        <p class="talk-title">Title: TBD</p>
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="time">9:25 - 9:50</div>
+                        <div class="event">
+                                <div class="speaker">
+                                    <img src="imgs/speakers/jiachen-li.jpg" 
+                                        alt="Jiachen Li" 
+                                        class="speaker-thumbnail">
+                                    <div class="event-details">
+                                        <h3>Keynote: Dr. Jiachen Li</h3>
+                                        <p>University of California, Riveside</p>
+                                        <p class="talk-title">Title: TBD</p>
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+
+
+                    <div class="timeline-item">
+                        <div class="time">9:50 - 10:25</div>
+                        <div class="event">
+                            <h3>Poster/Interactive Demo Session and Coffee Break</h3>
+                            <p> Accepted poster and demos author discuss their work</p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="time">10:25 - 10:50</div>
+                        <div class="event">
+                                <div class="speaker">
+                                    <img src="imgs/speakers/blank.png" 
+                                        alt="TBD Speaker" 
+                                        class="speaker-thumbnail">
+                                    <div class="event-details">
+                                        <h3>Keynote: TBD</h3>
+                                        <p>Affiliation</p>
+                                        <p class="talk-title">Title TBD</p>
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="time">10:50 - 11:15</div>
+                        <div class="event">
+                                <div class="speaker">
+                                    <img src="imgs/speakers/blank.png" 
+                                        alt="TBD Speaker" 
+                                        class="speaker-thumbnail">
+                                    <div class="event-details">
+                                        <h3>Keynote: TBD</h3>
+                                        <p>Affiliation</p>
+                                        <p class="talk-title">Title TBD</p>
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+
+
+
+                    <div class="timeline-item">
+                        <div class="time">11:15 - 11:45</div>
+                        <div class="event">
+                            <h3>Contributed Oral Presentations</h3>
+                            <p> Selected papers will be presented by their authors.</p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="time">11:45 - 12:25</div>
+                        <div class="event">
+                            <h3>Panel Discussion</h3>
+                            <p class="talk-title">Title TBD</p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="time">12:25 - 12:50</div>
+                        <div class="event">
+                            <h3>Closing Discussion & Remarks</h3>
+                            <p>Workshop closing remarks</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Speakers Section -->
+        <section id="speakers" class="speakers-section">
+            <div class="container">
+                <h2>Invited Speakers</h2>
+                <p>TBA</p>
+
+                <div class="speakers-grid full">
+                    <div class="speaker-card">
+                        <a href="https://roozbehm.info" target="_blank">
+                            <img src="imgs/speakers/roozbeh-mottaghi.png"
+                                alt="Roozbeh Mottaghi">
+                            <div class="speaker-info">
+                                <h3>Roozbeh Mottaghi</h3>
+                                <p class="affiliation">Meta FAIR/ UWashington</p>
+                                <p class="topic">Topic: TBD</p>
+                                <!-- <p class="remote-note">(Remote Presentation)</p> -->
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="speaker-card">
+                        <a href="https://jiachenli94.github.io" target="_blank">
+                            <img src="imgs/speakers/jiachen-li.jpg"
+                                alt="Jiachen Li">
+                            <div class="speaker-info">
+                                <h3>Jiachen Li</h3>
+                                <p class="affiliation">University of California, Riverside</p>
+                                <p class="topic">Topic: TBD</p>
+                                <!-- <p class="remote-note">(Remote Presentation)</p> -->
+                            </div>
+                        </a>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- Accepted Papers Section -->
+
+
+        <!-- Organizers Section -->
+        <section id="organizers" class="organizers-section">
+            <div class="container">
+                <h2>Organizing Committee</h2>
+                <!--<p>Meet the team behind the VLM4RWD Workshop</p>-->
+
+                <div class="organizers-grid">
+                    <div class="organizer-card">
+                        <a href="https://mozhgan91.github.io/" target="_blank">
+                            <img src="imgs/organizers/mozhgan_nasr.jpeg"
+                                alt="Mozhgan Nasr Azadani">
+                            <h3>Mozhgan Nasr Azadani</h3>
+                            <p class="affiliation">University of Waterloo</p>
+                        </a>
+                    </div>
+
+                    <div class="organizer-card">
+                        <a href="https://yimuwangcs.github.io" target="_blank">
+                            <img src="imgs/organizers/yimu_wang.jpg"
+                                alt="Yimu Wang">
+                            <h3>Yimu Wang</h3>
+                            <p class="affiliation">University of Waterloo</p>
+                        </a>
+                    </div>
+
+                    <div class="organizer-card">
+                        <a href="https://www.negara.me/"
+                            target="_blank">
+                            <img src="imgs/organizers/negar_arabzadeh.jpeg"
+                                alt="Negar Arabzadeh">
+                            <h3>Negar Arabzadeh</h3>
+                            <p class="affiliation">UC Berkeley</p>
+                        </a>
+                    </div>
+
+                    <div class="organizer-card">
+                        <a href="https://richardbaihe.github.io/" target="_blank">
+                            <img src="imgs/organizers/richard_bai.jpeg"
+                                alt="Richard He Bai">
+                            <h3>Richard He Bai</h3>
+                            <p class="affiliation">Apple</p>
+                        </a>
+                    </div>
+
+                    <div class="organizer-card">
+                        <a href="https://schmluk.github.io/"
+                            target="_blank">
+                            <img src="imgs/organizers/lukas_schmid.png"
+                                alt="Lukas Schmid">
+                            <h3>Lukas Schmid</h3>
+                            <p class="affiliation">MIT</p>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section">
+            <div class="container">
+                <h2>Contact Us</h2>
+                <p>Questions or feedback? Feel free to reach out. We would love to hear from you.</p>
+
+                <div class="contact-info">
+                    <div class="contact-methods">
+                        <div class="contact-method">
+                            <div class="icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="details">
+                                <h3>Email</h3>
+                                <p>For general inquiries:</p>
+                                <p><a
+                                        href="mailto:mnasraza@uwaterloo.ca">mnasraza@uwaterloo.ca</a></p>
+                                <p><a
+                                        href="mailto:yimu.wang@uwaterloo.ca">yimu.wang@uwaterloo.ca</a></p>
+                            </div>
+                        </div>
+
+                        <div class="contact-method">
+                            <div class="icon">
+                                <i class="fas fa-file-alt"></i>
+                            </div>
+                            <div class="details">
+                                <h3>Paper Submissions</h3>
+                                <p>Paper submissions will be managed through OpenReview. The submission portal will be announced once available.</p>
+                                <!--<p><a
+                                        href="https://openreview.net/group?id=thecvf.com/CVPR/2025/Workshop/3D-LLM_VLA"
+                                        target="_blank">OpenReview Submission
+                                        System</a></p> -->
+                            </div>
+                        </div>
+
+                        <div class="contact-method">
+                            <div class="icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="details">
+                                <h3>Workshop Location</h3>
+                                <p>NeurIPS 2025</p>
+                                <p>Mexico City, Mexico</p>
+                                <p>Exact venue details will be announced closer
+                                    to the event</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faq">
+                    <h3>Frequently Asked Questions</h3>
+
+                    <!-- <div class="accordion">
+                        <div class="accordion-item">
+                            <div class="accordion-header">
+                                <h4>What is the paper submission deadline?</h4>
+                                <span class="toggle"><i
+                                        class="fas fa-plus"></i></span>
+                            </div>
+                            <div class="accordion-content">
+                                <p>The paper submission deadline is <del>April
+                                        20, 2025 (23:59)</del> April 25, 2025
+                                    (23:59 AoE).</p>
+                            </div>
+                        </div> -->
+
+                        <div class="accordion-item">
+                            <div class="accordion-header">
+                                <h4>Is the workshop in-person or virtual?</h4>
+                                <span class="toggle"><i
+                                        class="fas fa-plus"></i></span>
+                            </div>
+                            <div class="accordion-content">
+                                <p>The workshop will be held in-person at NeurIPS
+                                    2025 in Mexico City, Mexico.</p>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <div class="accordion-header">
+                                <h4>Will the workshop proceedings be archival?</h4>
+                                <span class="toggle"><i
+                                        class="fas fa-plus"></i></span>
+                            </div>
+                            <div class="accordion-content">
+                                <p>No, the workshop proceedings will be non-archival.
+                                    Authors of accepted papers retain the full
+                                    copyright of their work and are free to
+                                    submit extended versions to conferences or
+                                    journals.</p>
+                            </div>
+                        </div>
+
+                        <!--<div class="accordion-item">
+                            <div class="accordion-header">
+                                <h4>What is the maximum page length for
+                                    submissions?</h4>
+                                <span class="toggle"><i
+                                        class="fas fa-plus"></i></span>
+                            </div>
+                            <div class="accordion-content">
+                                <p>Papers can be submitted in any major
+                                    conference's format, with a length of 2-8
+                                    pages (excluding references).</p> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <div class="container">
+                <div class="footer-content">
+                    <div class="footer-logo">
+                        <h3>VLM4RWD Workshop</h3>
+                        <p>NeurIPS 2025 | Nov 30th, 2025 | Mexico City, Mexico</p>
+                    </div>
+                    <div class="footer-links">
+                        <ul>
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#call">Call for Papers</a></li>
+                            <!-- <li><a href="#papers">Accepted Papers</a></li> -->
+                            <!--<li><a href="#schedule">Schedule</a></li> -->
+                            <!--<li><a href="#speakers">Speakers</a></li> -->
+                            <li><a href="#organizers">Organizers</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-contact">
+                        <p><strong>Contact:</strong></p>
+                        <p>Mozhgan Nasr <a
+                                href="mailto:mnasraza@uwaterloo.ca">mnasraza@uwaterloo.ca</a></p>
+                        <p>Yimu Wang <a
+                                href="mailto:yimu.wang@uwaterloo.ca">yimu.wang@uwaterloo.ca</a></p>
+                    </div>
+                </div>
+                <div class="copyright">
+                    <p>&copy; NeurIPS 2025 VLM4RWD Workshop. All rights
+                        reserved.</p>
+                </div>
+            </div>
+        </footer>
+
+        <script src="js/script.js"></script>
+
+        <!-- Add before the closing </body> tag -->
+        <div style="display:none;">
+            <script type="text/javascript" id="clustrmaps"
+                src="//clustrmaps.com/map_v2.js?d=j7FDWI1wzKKEzCWLohxh7IFyPRkDO_Yoq8ehLPPnKB8&cl=ffffff&w=a"></script>
+        </div>
+    </body>
+</html>
+
